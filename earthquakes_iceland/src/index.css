@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  padding: 10px;
+  background-color: darkblue;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.header h1 {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: #ee0000;
+  text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+.footer {
+  padding: 10px;
+  background-color: darkblue;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 30;
+}
+
+.footer h1 {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+}
+
+.map {
+  width: 80vw;
+  height: 70vh;
+  margin: 30px 0px 50px 10%;
+  position: relative;
+}
+
+.location-icon {
+  font-size: 1.5rem;
+  color: #ba9876; 
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.loader.img {
+  width: 400px;
+}
+
+.loader h1 {
+  margin-top: 101px;
+}
+
+.earthquake-info {
+  position: absolute;
+  top: 40px;
+  right: 50px;
+  width: 300px;
+  min-height: 150px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.earthquake-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.earthquake-info li {
+  padding: 5px 0;
+}
